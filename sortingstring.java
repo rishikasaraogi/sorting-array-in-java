@@ -13,7 +13,7 @@ for(int i = 0; i<size-1; i++)
 {  
 for (int j = i+1; j<countries.length; j++)   
 {  
-//compares each elements of the array to all the remaining elements  
+//compares each elements of the array to all the remaining elements.  
 if(countries[i].compareTo(countries[j])>0)   
 {  
 //swapping array elements  
@@ -23,7 +23,7 @@ countries[j] = temp;
 }  
 }  
 }  
-//prints the sorted array in ascending order  
+
 System.out.println(Arrays.toString(countries));  
 }  
 } 
